@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kristian.layouttilsud.MainActivity">
+
+
+
+    <com.example.kristian.layouttilsud.drawLine
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <GridLayout
+        android:id="@+id/mitgrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:columnCount="9"
+        android:orientation="horizontal"
+        android:rowCount="9"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible"
+            />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
