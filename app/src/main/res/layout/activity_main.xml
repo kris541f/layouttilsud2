@@ -9,6 +9,133 @@
     tools:context="com.example.kristian.layouttilsud.MainActivity">
 
 
+    <Button
+        android:id="@+id/slet"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="222dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="21dp"
+        android:text="Slet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tre"
+        app:layout_constraintTop_toBottomOf="@+id/mitgrid"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ni"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/otte"
+        app:layout_constraintTop_toBottomOf="@+id/seks"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/otte"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="13dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ni"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/syv"
+        app:layout_constraintTop_toBottomOf="@+id/fire"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/syv"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="13dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/otte"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fire" />
+
+    <Button
+        android:id="@+id/seks"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="17dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/mitgrid"
+        app:layout_constraintStart_toEndOf="@+id/fire"
+        app:layout_constraintTop_toBottomOf="@+id/tre" />
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/mitgrid"
+        app:layout_constraintEnd_toStartOf="@+id/seks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to" />
+
+    <Button
+        android:id="@+id/fem"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="148dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <Button
+        android:id="@+id/tre"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="21dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/seks"
+        app:layout_constraintEnd_toStartOf="@+id/slet"
+        app:layout_constraintStart_toEndOf="@+id/to"
+        app:layout_constraintTop_toBottomOf="@+id/mitgrid" />
+
+    <Button
+        android:id="@+id/et"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="21dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/fire"
+        app:layout_constraintEnd_toStartOf="@+id/to"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mitgrid" />
+
     <GridLayout
         android:id="@+id/mitgrid"
         android:layout_width="wrap_content"
@@ -27,20 +154,20 @@
 
 
         <TextView
-            android:id="@+id/test1"
+            android:id="@+id/s1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/mhjfix"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
-            android:text="5"
+            android:text="6"
             android:textAlignment="center"
             android:textSize="31sp"
             android:visibility="visible" />
 
         <TextView
-            android:id="@+id/test"
+            android:id="@+id/s2"
             android:layout_height="match_parent"
             android:background="@drawable/mhjhojre"
             android:clickable="true"
@@ -52,6 +179,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s3"
+            android:layout_height="match_parent"
+            android:background="@drawable/tiltopho"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s4"
+            android:layout_height="match_parent"
+            android:background="@drawable/tiltopve"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s5"
             android:layout_height="match_parent"
             android:background="@drawable/mhjhojre"
             android:clickable="true"
@@ -63,6 +215,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s6"
+            android:layout_height="match_parent"
+            android:background="@drawable/tiltopho"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s7"
+            android:layout_height="match_parent"
+            android:background="@drawable/tiltopve"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s8"
             android:layout_height="match_parent"
             android:background="@drawable/mhjhojre"
             android:clickable="true"
@@ -74,6 +251,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s9"
             android:layout_height="match_parent"
             android:background="@drawable/mhjhojre"
             android:clickable="true"
@@ -85,50 +263,7 @@
             android:visibility="visible" />
 
         <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjhojre"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjhojre"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjhojre"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjhojre"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
+            android:id="@+id/s10"
             android:layout_height="match_parent"
             android:background="@drawable/mhjbund"
             android:clickable="true"
@@ -140,6 +275,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s11"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -151,6 +287,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s12"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s13"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s14"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -162,6 +323,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s15"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s16"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s17"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -173,6 +359,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s18"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -184,8 +371,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s19"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/tilbundbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -195,8 +383,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s20"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/normbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -206,8 +395,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s21"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/specbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -217,8 +407,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s22"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/kopibund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -228,6 +419,175 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s23"
+            android:layout_height="match_parent"
+            android:background="@drawable/normbund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s24"
+            android:layout_height="match_parent"
+            android:background="@drawable/specbund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s25"
+            android:layout_height="match_parent"
+            android:background="@drawable/kopibund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s26"
+            android:layout_height="match_parent"
+            android:background="@drawable/normbund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s27"
+            android:layout_height="match_parent"
+            android:background="@drawable/normbund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s28"
+            android:layout_height="match_parent"
+            android:background="@drawable/tilbundtop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s29"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjtop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s30"
+            android:layout_height="match_parent"
+            android:background="@drawable/spectop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s31"
+            android:layout_height="match_parent"
+            android:background="@drawable/kopitop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s32"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjtop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s33"
+            android:layout_height="match_parent"
+            android:background="@drawable/spectop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s34"
+            android:layout_height="match_parent"
+            android:background="@drawable/kopitop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s35"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjtop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s36"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjtop"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s37"
             android:layout_height="match_parent"
             android:background="@drawable/mhjbund"
             android:clickable="true"
@@ -239,6 +599,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s38"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -250,6 +611,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s39"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s40"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s41"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -261,6 +647,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s42"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s43"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s44"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -272,6 +683,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s45"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -283,8 +695,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s46"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/tilbundbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -294,8 +707,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s47"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/normbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -305,8 +719,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s48"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/specbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -316,8 +731,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s49"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/kopibund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -327,8 +743,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s50"
             android:layout_height="match_parent"
-            android:background="@drawable/mhjbund"
+            android:background="@drawable/normbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -338,8 +755,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s51"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/specbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -349,8 +767,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s52"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/kopibund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -360,8 +779,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s53"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/normbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -371,8 +791,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s54"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/normbund"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -382,8 +803,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s55"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/tilbundtop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -393,8 +815,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s56"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/mhjtop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -404,250 +827,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s57"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjbund"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjbund"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjbund"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/spectop"
             android:clickable="true"
             android:cursorVisible="false"
             android:paddingLeft="11dp"
@@ -658,8 +840,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s58"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/kopitop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -669,8 +852,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s59"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/mhjtop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -680,8 +864,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s60"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/spectop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -691,8 +876,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s61"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/kopitop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -702,8 +888,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s62"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/mhjtop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -713,8 +900,9 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s63"
             android:layout_height="match_parent"
-            android:background="@drawable/mhj"
+            android:background="@drawable/mhjtop"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
@@ -724,105 +912,7 @@
             android:visibility="visible" />
 
         <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhjbund"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:background="@drawable/mhj"
-            android:clickable="true"
-            android:paddingLeft="11dp"
-            android:paddingRight="11dp"
-            android:text="5"
-            android:textAlignment="center"
-            android:textSize="31sp"
-            android:visibility="visible" />
-
-        <TextView
+            android:id="@+id/s64"
             android:layout_height="match_parent"
             android:background="@drawable/mhjbund"
             android:clickable="true"
@@ -834,6 +924,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s65"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -845,6 +936,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s66"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s67"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s68"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -856,6 +972,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s69"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s70"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s71"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -867,6 +1008,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s72"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -878,6 +1020,19 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s73"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjbund"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s74"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -889,6 +1044,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s75"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s76"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s77"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -900,6 +1080,31 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s78"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjhoj"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s79"
+            android:layout_height="match_parent"
+            android:background="@drawable/mhjven"
+            android:clickable="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/s80"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -911,6 +1116,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:id="@+id/s81"
             android:layout_height="match_parent"
             android:background="@drawable/mhj"
             android:clickable="true"
@@ -923,5 +1129,19 @@
 
 
     </GridLayout>
+
+    <Button
+        android:id="@+id/to"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="21dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/fire"
+        app:layout_constraintEnd_toStartOf="@+id/tre"
+        app:layout_constraintStart_toEndOf="@+id/et"
+        app:layout_constraintTop_toBottomOf="@+id/mitgrid" />
 
 </android.support.constraint.ConstraintLayout>
