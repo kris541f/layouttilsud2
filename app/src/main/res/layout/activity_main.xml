@@ -140,8 +140,6 @@
         android:id="@+id/mitgrid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="53dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
         android:clickable="false"
         android:columnCount="9"
@@ -163,7 +161,7 @@
             android:paddingRight="11dp"
             android:text="6"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -175,7 +173,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -187,7 +185,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -199,7 +197,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -211,7 +209,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -223,7 +221,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -235,7 +233,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -247,7 +245,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -259,7 +257,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -271,7 +269,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -283,7 +281,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -295,7 +293,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -307,7 +305,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -319,7 +317,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -331,7 +329,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -343,7 +341,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -355,7 +353,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -367,7 +365,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -379,7 +377,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -391,7 +389,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -403,7 +401,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -415,7 +413,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -427,7 +425,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -439,7 +437,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -451,7 +449,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -463,7 +461,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -475,7 +473,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -487,7 +485,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -499,7 +497,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -511,7 +509,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -523,7 +521,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -535,7 +533,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -547,7 +545,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -559,7 +557,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -571,7 +569,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -583,7 +581,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -595,7 +593,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -607,7 +605,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -619,7 +617,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -631,7 +629,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -643,7 +641,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -655,7 +653,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -667,7 +665,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -679,7 +677,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -691,7 +689,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -703,7 +701,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -715,7 +713,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -727,7 +725,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -739,7 +737,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -751,7 +749,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -763,7 +761,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -775,7 +773,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -787,7 +785,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -799,7 +797,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -811,7 +809,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -823,7 +821,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -836,7 +834,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -848,7 +846,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -860,7 +858,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -872,7 +870,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -884,7 +882,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -896,7 +894,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -908,7 +906,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -920,7 +918,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -932,7 +930,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -944,7 +942,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -956,7 +954,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -968,7 +966,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -980,7 +978,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -992,7 +990,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1004,7 +1002,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1016,7 +1014,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1028,7 +1026,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1040,7 +1038,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1052,7 +1050,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1064,7 +1062,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1076,7 +1074,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1088,7 +1086,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1100,7 +1098,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1112,7 +1110,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
         <TextView
@@ -1124,7 +1122,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
-            android:textSize="31sp"
+            android:textSize="28sp"
             android:visibility="visible" />
 
 
