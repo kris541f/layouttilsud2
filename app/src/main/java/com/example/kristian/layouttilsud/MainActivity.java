@@ -30,29 +30,48 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         faktor= getResources().getDisplayMetrics().density;
-        dp28= (int)(28*faktor+0.5f);
+        dp28= (int)(27*faktor+0.5f);
         dp11= (int) (11*faktor+0.5f);
 
         final TextView s1 = (TextView)findViewById(R.id.s1);
         s1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s1.setTextColor(Color.BLUE);
+                    }else {s1.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s1.setId(hehe);
+
+
             }
         });
         final TextView s2 = (TextView)findViewById(R.id.s2);
         s2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s2.setTextColor(Color.BLUE);
+                }else {s2.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s2.setId(hehe);
+
+
             }
         });
         final TextView s3 = (TextView)findViewById(R.id.s3);
         s3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s3.setTextColor(Color.BLUE);
+                }else {s3.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s3.setId(hehe);
             }
@@ -61,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
         s4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s4.setTextColor(Color.BLUE);
+                }else {s4.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s4.setId(hehe);
             }
@@ -69,6 +93,11 @@ public class MainActivity extends AppCompatActivity {
         s5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s5.setTextColor(Color.BLUE);
+                }else {s5.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s5.setId(hehe);
             }
@@ -77,6 +106,11 @@ public class MainActivity extends AppCompatActivity {
         s6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s6.setTextColor(Color.BLUE);
+                }else {s6.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s6.setId(hehe);
             }
@@ -85,6 +119,11 @@ public class MainActivity extends AppCompatActivity {
         s7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s7.setTextColor(Color.BLUE);
+                }else {s7.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s7.setId(hehe);
             }
@@ -93,6 +132,11 @@ public class MainActivity extends AppCompatActivity {
         s8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s8.setTextColor(Color.BLUE);
+                }else {s8.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s8.setId(hehe);
             }
@@ -101,6 +145,11 @@ public class MainActivity extends AppCompatActivity {
         s9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s9.setTextColor(Color.BLUE);
+                }else {s9.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s9.setId(hehe);
             }
@@ -109,6 +158,11 @@ public class MainActivity extends AppCompatActivity {
         s10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s10.setTextColor(Color.BLUE);
+                }else {s10.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s10.setId(hehe);
             }
@@ -117,6 +171,11 @@ public class MainActivity extends AppCompatActivity {
         s11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s11.setTextColor(Color.BLUE);
+                }else {s11.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s11.setId(hehe);
             }
@@ -125,6 +184,11 @@ public class MainActivity extends AppCompatActivity {
         s12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s12.setTextColor(Color.BLUE);
+                }else {s12.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s12.setId(hehe);
             }
@@ -133,6 +197,11 @@ public class MainActivity extends AppCompatActivity {
         s13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s13.setTextColor(Color.BLUE);
+                }else {s13.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s13.setId(hehe);
             }
@@ -141,6 +210,11 @@ public class MainActivity extends AppCompatActivity {
         s14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s14.setTextColor(Color.BLUE);
+                }else {s14.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s14.setId(hehe);
             }
@@ -149,6 +223,11 @@ public class MainActivity extends AppCompatActivity {
         s15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s15.setTextColor(Color.BLUE);
+                }else {s15.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s15.setId(hehe);
             }
@@ -157,6 +236,11 @@ public class MainActivity extends AppCompatActivity {
         s16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s16.setTextColor(Color.BLUE);
+                }else {s16.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s16.setId(hehe);
             }
@@ -165,6 +249,11 @@ public class MainActivity extends AppCompatActivity {
         s17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s17.setTextColor(Color.BLUE);
+                }else {s17.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s17.setId(hehe);
             }
@@ -173,6 +262,11 @@ public class MainActivity extends AppCompatActivity {
         s18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s18.setTextColor(Color.BLUE);
+                }else {s18.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s18.setId(hehe);
             }
@@ -181,6 +275,11 @@ public class MainActivity extends AppCompatActivity {
         s19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s19.setTextColor(Color.BLUE);
+                }else {s19.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s19.setId(hehe);
             }
@@ -189,6 +288,11 @@ public class MainActivity extends AppCompatActivity {
         s20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s20.setTextColor(Color.BLUE);
+                }else {s20.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s20.setId(hehe);
             }
@@ -197,6 +301,11 @@ public class MainActivity extends AppCompatActivity {
         s21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s21.setTextColor(Color.BLUE);
+                }else {s21.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s21.setId(hehe);
             }
@@ -205,6 +314,11 @@ public class MainActivity extends AppCompatActivity {
         s22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s22.setTextColor(Color.BLUE);
+                }else {s22.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s22.setId(hehe);
             }
@@ -213,6 +327,11 @@ public class MainActivity extends AppCompatActivity {
         s23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s23.setTextColor(Color.BLUE);
+                }else {s23.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s23.setId(hehe);
             }
@@ -221,6 +340,11 @@ public class MainActivity extends AppCompatActivity {
         s24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s24.setTextColor(Color.BLUE);
+                }else {s24.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s24.setId(hehe);
             }
@@ -229,6 +353,11 @@ public class MainActivity extends AppCompatActivity {
         s25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s25.setTextColor(Color.BLUE);
+                }else {s25.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s25.setId(hehe);
             }
@@ -237,6 +366,11 @@ public class MainActivity extends AppCompatActivity {
         s26.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s26.setTextColor(Color.BLUE);
+                }else {s26.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s26.setId(hehe);
             }
@@ -245,6 +379,11 @@ public class MainActivity extends AppCompatActivity {
         s27.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s27.setTextColor(Color.BLUE);
+                }else {s27.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s27.setId(hehe);
             }
@@ -253,6 +392,11 @@ public class MainActivity extends AppCompatActivity {
         s28.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s28.setTextColor(Color.BLUE);
+                }else {s28.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s28.setId(hehe);
             }
@@ -261,6 +405,11 @@ public class MainActivity extends AppCompatActivity {
         s29.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s29.setTextColor(Color.BLUE);
+                }else {s29.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s29.setId(hehe);
             }
@@ -269,6 +418,11 @@ public class MainActivity extends AppCompatActivity {
         s30.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s30.setTextColor(Color.BLUE);
+                }else {s30.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s30.setId(hehe);
             }
@@ -277,6 +431,11 @@ public class MainActivity extends AppCompatActivity {
         s31.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s31.setTextColor(Color.BLUE);
+                }else {s31.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s31.setId(hehe);
             }
@@ -285,6 +444,11 @@ public class MainActivity extends AppCompatActivity {
         s32.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s32.setTextColor(Color.BLUE);
+                }else {s32.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s32.setId(hehe);
             }
@@ -293,6 +457,11 @@ public class MainActivity extends AppCompatActivity {
         s33.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s33.setTextColor(Color.BLUE);
+                }else {s33.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s33.setId(hehe);
             }
@@ -301,6 +470,11 @@ public class MainActivity extends AppCompatActivity {
         s34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s34.setTextColor(Color.BLUE);
+                }else {s34.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s34.setId(hehe);
             }
@@ -309,6 +483,11 @@ public class MainActivity extends AppCompatActivity {
         s35.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s35.setTextColor(Color.BLUE);
+                }else {s35.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s35.setId(hehe);
             }
@@ -317,6 +496,11 @@ public class MainActivity extends AppCompatActivity {
         s36.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s36.setTextColor(Color.BLUE);
+                }else {s36.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s36.setId(hehe);
             }
@@ -325,6 +509,11 @@ public class MainActivity extends AppCompatActivity {
         s37.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s37.setTextColor(Color.BLUE);
+                }else {s37.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s37.setId(hehe);
             }
@@ -333,6 +522,11 @@ public class MainActivity extends AppCompatActivity {
         s38.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s38.setTextColor(Color.BLUE);
+                }else {s38.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s38.setId(hehe);
             }
@@ -341,6 +535,11 @@ public class MainActivity extends AppCompatActivity {
         s39.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s39.setTextColor(Color.BLUE);
+                }else {s39.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s39.setId(hehe);
             }
@@ -349,6 +548,11 @@ public class MainActivity extends AppCompatActivity {
         s40.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s40.setTextColor(Color.BLUE);
+                }else {s40.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s40.setId(hehe);
             }
@@ -357,6 +561,11 @@ public class MainActivity extends AppCompatActivity {
         s41.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s41.setTextColor(Color.BLUE);
+                }else {s41.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s41.setId(hehe);
             }
@@ -365,6 +574,11 @@ public class MainActivity extends AppCompatActivity {
         s42.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s42.setTextColor(Color.BLUE);
+                }else {s42.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s42.setId(hehe);
             }
@@ -373,6 +587,11 @@ public class MainActivity extends AppCompatActivity {
         s43.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s43.setTextColor(Color.BLUE);
+                }else {s43.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s43.setId(hehe);
             }
@@ -381,6 +600,11 @@ public class MainActivity extends AppCompatActivity {
         s44.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s44.setTextColor(Color.BLUE);
+                }else {s44.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s44.setId(hehe);
             }
@@ -389,6 +613,11 @@ public class MainActivity extends AppCompatActivity {
         s45.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s45.setTextColor(Color.BLUE);
+                }else {s45.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s45.setId(hehe);
             }
@@ -397,6 +626,11 @@ public class MainActivity extends AppCompatActivity {
         s46.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s46.setTextColor(Color.BLUE);
+                }else {s46.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s46.setId(hehe);
             }
@@ -405,6 +639,11 @@ public class MainActivity extends AppCompatActivity {
         s47.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s47.setTextColor(Color.BLUE);
+                }else {s47.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s47.setId(hehe);
             }
@@ -413,6 +652,11 @@ public class MainActivity extends AppCompatActivity {
         s48.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s48.setTextColor(Color.BLUE);
+                }else {s48.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s48.setId(hehe);
             }
@@ -421,6 +665,11 @@ public class MainActivity extends AppCompatActivity {
         s49.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s49.setTextColor(Color.BLUE);
+                }else {s49.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s49.setId(hehe);
             }
@@ -429,6 +678,11 @@ public class MainActivity extends AppCompatActivity {
         s50.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s50.setTextColor(Color.BLUE);
+                }else {s50.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s50.setId(hehe);
             }
@@ -437,6 +691,11 @@ public class MainActivity extends AppCompatActivity {
         s51.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s51.setTextColor(Color.BLUE);
+                }else {s51.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s51.setId(hehe);
             }
@@ -445,6 +704,11 @@ public class MainActivity extends AppCompatActivity {
         s52.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s52.setTextColor(Color.BLUE);
+                }else {s52.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s52.setId(hehe);
             }
@@ -453,6 +717,11 @@ public class MainActivity extends AppCompatActivity {
         s53.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s53.setTextColor(Color.BLUE);
+                }else {s53.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s53.setId(hehe);
             }
@@ -461,6 +730,11 @@ public class MainActivity extends AppCompatActivity {
         s54.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s54.setTextColor(Color.BLUE);
+                }else {s54.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s54.setId(hehe);
             }
@@ -469,6 +743,11 @@ public class MainActivity extends AppCompatActivity {
         s55.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s55.setTextColor(Color.BLUE);
+                }else {s55.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s55.setId(hehe);
             }
@@ -477,6 +756,11 @@ public class MainActivity extends AppCompatActivity {
         s56.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s56.setTextColor(Color.BLUE);
+                }else {s56.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s56.setId(hehe);
             }
@@ -485,6 +769,11 @@ public class MainActivity extends AppCompatActivity {
         s57.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s57.setTextColor(Color.BLUE);
+                }else {s57.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s57.setId(hehe);
             }
@@ -493,6 +782,11 @@ public class MainActivity extends AppCompatActivity {
         s58.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s58.setTextColor(Color.BLUE);
+                }else {s58.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s58.setId(hehe);
             }
@@ -501,6 +795,11 @@ public class MainActivity extends AppCompatActivity {
         s59.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s59.setTextColor(Color.BLUE);
+                }else {s59.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s59.setId(hehe);
             }
@@ -509,6 +808,11 @@ public class MainActivity extends AppCompatActivity {
         s60.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s60.setTextColor(Color.BLUE);
+                }else {s60.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s60.setId(hehe);
             }
@@ -517,6 +821,11 @@ public class MainActivity extends AppCompatActivity {
         s61.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s61.setTextColor(Color.BLUE);
+                }else {s61.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s61.setId(hehe);
             }
@@ -525,6 +834,11 @@ public class MainActivity extends AppCompatActivity {
         s62.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s62.setTextColor(Color.BLUE);
+                }else {s62.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s62.setId(hehe);
             }
@@ -533,6 +847,11 @@ public class MainActivity extends AppCompatActivity {
         s63.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s63.setTextColor(Color.BLUE);
+                }else {s63.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s63.setId(hehe);
             }
@@ -541,6 +860,11 @@ public class MainActivity extends AppCompatActivity {
         s64.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s64.setTextColor(Color.BLUE);
+                }else {s64.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s64.setId(hehe);
             }
@@ -549,6 +873,11 @@ public class MainActivity extends AppCompatActivity {
         s65.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s65.setTextColor(Color.BLUE);
+                }else {s65.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s65.setId(hehe);
             }
@@ -557,6 +886,11 @@ public class MainActivity extends AppCompatActivity {
         s66.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s66.setTextColor(Color.BLUE);
+                }else {s66.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s66.setId(hehe);
             }
@@ -565,6 +899,11 @@ public class MainActivity extends AppCompatActivity {
         s67.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s67.setTextColor(Color.BLUE);
+                }else {s67.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s67.setId(hehe);
             }
@@ -573,6 +912,11 @@ public class MainActivity extends AppCompatActivity {
         s68.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s68.setTextColor(Color.BLUE);
+                }else {s68.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s68.setId(hehe);
             }
@@ -581,6 +925,11 @@ public class MainActivity extends AppCompatActivity {
         s69.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s69.setTextColor(Color.BLUE);
+                }else {s69.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s69.setId(hehe);
             }
@@ -589,6 +938,11 @@ public class MainActivity extends AppCompatActivity {
         s70.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s70.setTextColor(Color.BLUE);
+                }else {s70.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s70.setId(hehe);
             }
@@ -597,6 +951,11 @@ public class MainActivity extends AppCompatActivity {
         s71.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s71.setTextColor(Color.BLUE);
+                }else {s71.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s71.setId(hehe);
             }
@@ -605,6 +964,11 @@ public class MainActivity extends AppCompatActivity {
         s72.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s72.setTextColor(Color.BLUE);
+                }else {s72.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s72.setId(hehe);
             }
@@ -613,6 +977,11 @@ public class MainActivity extends AppCompatActivity {
         s73.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s73.setTextColor(Color.BLUE);
+                }else {s73.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s73.setId(hehe);
             }
@@ -621,6 +990,11 @@ public class MainActivity extends AppCompatActivity {
         s74.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s74.setTextColor(Color.BLUE);
+                }else {s74.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s74.setId(hehe);
             }
@@ -629,6 +1003,11 @@ public class MainActivity extends AppCompatActivity {
         s75.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s75.setTextColor(Color.BLUE);
+                }else {s75.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s75.setId(hehe);
             }
@@ -637,6 +1016,11 @@ public class MainActivity extends AppCompatActivity {
         s76.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s76.setTextColor(Color.BLUE);
+                }else {s76.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s76.setId(hehe);
             }
@@ -645,6 +1029,11 @@ public class MainActivity extends AppCompatActivity {
         s77.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s77.setTextColor(Color.BLUE);
+                }else {s77.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s77.setId(hehe);
             }
@@ -653,6 +1042,11 @@ public class MainActivity extends AppCompatActivity {
         s78.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s78.setTextColor(Color.BLUE);
+                }else {s78.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s78.setId(hehe);
             }
@@ -661,6 +1055,11 @@ public class MainActivity extends AppCompatActivity {
         s79.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s79.setTextColor(Color.BLUE);
+                }else {s79.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s79.setId(hehe);
             }
@@ -669,6 +1068,11 @@ public class MainActivity extends AppCompatActivity {
         s80.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s80.setTextColor(Color.BLUE);
+                }else {s80.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s80.setId(hehe);
             }
@@ -677,6 +1081,11 @@ public class MainActivity extends AppCompatActivity {
         s81.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(hehe!=0){
+                    TextView xkd = (TextView) findViewById(hehe);
+                    xkd.setTextColor(Color.GRAY);
+                    s81.setTextColor(Color.BLUE);
+                }else {s81.setTextColor(Color.BLUE);}
                 hehe= View.generateViewId();
                 s81.setId(hehe);
             }
