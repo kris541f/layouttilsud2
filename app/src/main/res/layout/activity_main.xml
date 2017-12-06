@@ -30,19 +30,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-
         <TextView
             android:id="@+id/s1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/mhjfix"
             android:clickable="true"
             android:paddingLeft="11dp"
             android:paddingRight="11dp"
-            android:text="6"
+            android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
+
 
         <TextView
             android:id="@+id/s2"
@@ -53,6 +53,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -65,6 +66,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -77,6 +79,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -89,6 +92,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -101,6 +105,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -113,6 +118,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -125,6 +131,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -137,6 +144,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -149,6 +157,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -161,6 +170,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -173,6 +183,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -185,6 +196,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -197,6 +209,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -209,6 +222,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -221,6 +235,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -233,6 +248,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -245,6 +261,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -257,6 +274,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -269,6 +287,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -281,6 +300,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -293,6 +313,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -305,6 +326,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -317,6 +339,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -329,6 +352,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -341,6 +365,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -353,6 +378,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -365,6 +391,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -377,6 +404,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -389,6 +417,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -401,6 +430,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -413,6 +443,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -425,6 +456,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -437,6 +469,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -449,6 +482,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -461,6 +495,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -473,6 +508,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -485,6 +521,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -497,6 +534,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -509,6 +547,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -521,6 +560,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -533,6 +573,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -545,6 +586,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -557,6 +599,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -569,6 +612,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -581,6 +625,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -593,6 +638,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -605,6 +651,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -617,6 +664,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -629,6 +677,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -641,6 +690,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -653,6 +703,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -665,6 +716,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -677,6 +729,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -689,6 +742,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -701,6 +755,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -714,6 +769,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -726,6 +782,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -738,6 +795,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -750,6 +808,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -762,6 +821,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -774,6 +834,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -786,6 +847,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -798,6 +860,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -810,6 +873,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -822,6 +886,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -834,6 +899,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -846,6 +912,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -858,6 +925,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -870,6 +938,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -882,6 +951,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -894,6 +964,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -906,6 +977,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -918,6 +990,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -930,6 +1003,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -942,6 +1016,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -954,6 +1029,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -966,6 +1042,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -978,6 +1055,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -990,6 +1068,7 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
@@ -1002,18 +1081,12 @@
             android:paddingRight="11dp"
             android:text="5"
             android:textAlignment="center"
+            android:textColor="@android:color/black"
             android:textSize="28sp"
             android:visibility="visible" />
 
 
     </GridLayout>
-
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
 
     <GridLayout
         android:id="@+id/gridLayout"
@@ -1090,5 +1163,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
 
 </android.support.constraint.ConstraintLayout>
