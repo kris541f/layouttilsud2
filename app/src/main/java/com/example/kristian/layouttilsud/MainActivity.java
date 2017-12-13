@@ -131,6 +131,11 @@ public class MainActivity extends AppCompatActivity {
                 xkd.setPadding(dp11,0,dp27,0);
                 xkd.setText("");
 
+                for (int i = 0; i <81 ; i++) {
+                    if (mineviews[i]==xkd){
+                        puslespil.setField(i,0);
+                    }
+                }
 
             }
         });
@@ -153,6 +158,8 @@ public class MainActivity extends AppCompatActivity {
         return mitbytearray;
     }
 
-
-
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
